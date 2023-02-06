@@ -9,7 +9,7 @@ const Header = () => {
       <div className="xl:w-1/6 text-center hidden xl:block">
         <button
           type="button"
-          className="font-semibold hover:bg-bg-third transition-colors duration-450 py-2 px-6 bg-primary text-white rounded-xl"
+          className="font-semibold hover:bg-third transition-colors duration-450 py-2 px-6 bg-primary text-white rounded-xl"
         >
           Ingresa
         </button>
@@ -24,6 +24,12 @@ const Header = () => {
           showMenu ? "left-0" : "-left-full"
         } top-0 xl:static flex-1 flex flex-col xl:flex-row items-center justify-center gap-6 transition-all duration-500 z-500`}
       >
+        <button
+          type="button"
+          className="font-semibold hover:bg-secondary transition-colors duration-450 py-2 px-6 bg-third text-white rounded-xl"
+        >
+          Ingresa
+        </button>
         <a href="#" className="text-6xl text-decoration-line:overline">
           jReboot
         </a>
