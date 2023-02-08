@@ -17,12 +17,6 @@ const NoticiaCentral = () =>{
             className="pr-8 object-cover" />
         </div>
       </div>
-      <p className="text-gray-500">App Design - June 20, 2022</p>
-      <h3 className="text-2xl font-bold">App Redesign</h3>
-      <p className="text-gray-500">
-        By information about design the world to the best instructors, heatc helping By information
-        about design the world to the best instructors, heatc helping
-      </p>
     </div>
   )
 }
