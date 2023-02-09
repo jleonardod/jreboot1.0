@@ -103,7 +103,7 @@ const BloqueSecundario = () => {
       </div>
       <div className={`mt-[3rem] p-0 h-full ${ showSocial && !showOpinion && !showAudios ? "block" : "hidden" }`}>
         <nav className="w-full gap-4">
-        
+          
         </nav>
       </div>
       <div className={`mt-[3rem] p-0 h-full ${ showAudios && !showSocial && !showOpinion ? "block" : "hidden" }`}>
