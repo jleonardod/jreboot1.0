@@ -24,36 +24,33 @@ const BloqueSecundario = () => {
   }
 
   return(
-    <div className="grid grid-cols-1 relative md:col-span-3 md:grid-cols-1 gap-0 -z-10">
+    <div className="grid grid-cols-1 xl:relative xl:mt-0 -pt-2 md:col-span-3 md:grid-cols-1 gap-0 z-1 xl:z-0 bg-yellow-200 ">
       <nav
-        className="w-full h-[3rem] absolute flex-1 justify-between flex flex-row items-center justify-center bg-secondary text-white font-bold z-10"
+        className="w-full h-[3rem] xl:absolute flex-1 justify-between flex flex-row items-center justify-center bg-secondary text-white font-bold -z-1"
       >
-        <a 
-          href="#" 
+        <div
           onClick={habilitarOpinion}
           className={`hover:bg-primary transition-colors duration-300 py-3 px-5 
           ${ showOpinion ? "border-b-4 border-fourth" : "border-none"} h-full`}
         >
           Opinión 
-        </a>
-        <a 
-          href="#" 
+        </div>
+        <div 
           onClick={habilitarSocial} 
           className={`hover:bg-primary transition-colors duration-300 py-3 px-5 
           ${ showSocial ? "border-b-4 border-fourth" : "border-none"} h-full`}
         >
           Social 
-        </a>
-        <a 
-          href="#" 
+        </div>
+        <div
           onClick={habilitarAudios} 
           className={`hover:bg-primary transition-colors duration-300 py-3 px-5 
           ${ showAudios ? "border-b-4 border-fourth" : "border-none"} h-full`}
         >
           Audios
-        </a>
+        </div>
       </nav>
-      <div className={`mt-[3rem] h-full ${ showOpinion && !showSocial && !showAudios ? "block" : "hidden" }`}>
+      <div className={`mt-[0rem] xl:mt-[3rem] h-full ${ showOpinion && !showSocial && !showAudios ? "block" : "hidden" }`}>
         <nav className="w-full gap-4">
           <div className="w-full p-4 pl-4 pb-2 hover:bg-gray-100 transition-color duration-300 bg-blue-200 flex flex-row gap-3 bg-white border-b-2 border-gray-300">
             <img 
@@ -101,12 +98,12 @@ const BloqueSecundario = () => {
           </div>
         </nav>
       </div>
-      <div className={`mt-[3rem] p-0 h-full ${ showSocial && !showOpinion && !showAudios ? "block" : "hidden" }`}>
+      <div className={`mt-[0rem] xl:mt-[3rem] p-0 h-full ${ showSocial && !showOpinion && !showAudios ? "block" : "hidden" }`}>
         <nav className="w-full gap-4">
           
         </nav>
       </div>
-      <div className={`mt-[3rem] p-0 h-full ${ showAudios && !showSocial && !showOpinion ? "block" : "hidden" }`}>
+      <div className={`mt-[0rem] xl:mt-[3rem] p-0 h-full ${ showAudios && !showSocial && !showOpinion ? "block" : "hidden" }`}>
         <nav className="w-full gap-4">
           <div className="w-full p-4 pl-4 pb-2 hover:text-white hover:bg-third transition-color duration-200 bg-blue-200 gap-3 bg-white border-b-2 border-gray-300">
             <div className="flex flex-row gap-3">

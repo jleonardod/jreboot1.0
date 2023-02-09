@@ -6,11 +6,11 @@ const BloqueCentral = () => {
 
   return(
     <div className="xl:p-14 px-4 py-4">
-      <div className="grid grid-cols-1 xl:grid-cols-10 gap-0">
+      <div className="grid grid-cols-1 xl:grid-cols-10 gap-0 xl:relative">
         {/* Noticia Principal */}
         <NoticiaCentral />
         {/* Bloque Lateral */}
-        <BloqueSecundario />
+        <BloqueSecundario/>
       </div>
     </div>
   )
