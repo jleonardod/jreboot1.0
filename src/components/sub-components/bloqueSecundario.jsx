@@ -1,4 +1,5 @@
 import React, {useState} from "react"
+import ReactAudioPlayer from 'react-audio-player'
 
 const BloqueSecundario = () => {
   const [showOpinion, setShowOpinion] = useState(true)
@@ -103,7 +104,7 @@ const BloqueSecundario = () => {
       </div>
       <div className={`mt-[3rem] p-0 h-full ${ showSocial && !showOpinion && !showAudios ? "block" : "hidden" }`}>
         <nav className="w-full gap-4">
-          
+
         </nav>
       </div>
       <div className={`mt-[3rem] p-0 h-full ${ showAudios && !showSocial && !showOpinion ? "block" : "hidden" }`}>
@@ -117,7 +118,11 @@ const BloqueSecundario = () => {
                 <a href="#" className="text-[1rem] hover:underline transition-all duration-200 font-black">¿Hasta cuando "Presidente" Petro?</a>
               </div>
             </div>
-            
+            <ReactAudioPlayer
+              src="https://audioplayer.madza.dev/Madza-Chords_of_Life.mp3"
+              controls
+              className="bg-gray-100 w-full mt-2"
+            />
           </div>
           <div className="w-full p-4 pl-4 pb-2 hover:text-white hover:bg-third transition-color duration-200 bg-blue-200 gap-3 bg-white border-b-2 border-gray-300">
             <div className="flex flex-row gap-3">
@@ -128,7 +133,11 @@ const BloqueSecundario = () => {
                 <a href="#" className="text-[1rem] hover:underline transition-all duration-200 font-black">Respeto con o sin sangre</a>
               </div>
             </div>
-            
+            <ReactAudioPlayer
+              src="https://audioplayer.madza.dev/Madza-Chords_of_Life.mp3"
+              controls
+              className="bg-gray-100 w-full mt-2"
+            />
           </div>
           <div className="w-full p-4 pl-4 pb-2 hover:text-white hover:bg-third transition-color duration-200 bg-blue-200 gap-3 bg-white border-b-2 border-gray-300">
             <div className="flex flex-row gap-3">
@@ -139,7 +148,11 @@ const BloqueSecundario = () => {
                 <a href="#" className="text-[1rem] hover:underline transition-all duration-200 font-black">El peor gabinete imaginado</a>
               </div>
             </div>
-            
+            <ReactAudioPlayer
+              src="https://audioplayer.madza.dev/Madza-Chords_of_Life.mp3"
+              controls
+              className="bg-gray-100 w-full mt-2"
+            />
           </div>
           <div className="w-full p-4 pl-4 pb-2 hover:text-white hover:bg-third transition-color duration-200 bg-blue-200 gap-3 bg-white border-b-2 border-gray-300">
             <div className="flex flex-row gap-3">
@@ -150,7 +163,11 @@ const BloqueSecundario = () => {
                 <a href="#" className="text-[1rem] hover:underline transition-all duration-200 font-black">El daño al FPC es irreparable</a>
               </div>
             </div>
-            
+            <ReactAudioPlayer
+              src="https://audioplayer.madza.dev/Madza-Chords_of_Life.mp3"
+              controls
+              className="bg-gray-100 w-full mt-2"
+            />
           </div>
         </nav>
       </div>
