@@ -42,7 +42,7 @@ const BloqueSecundario = () => {
           className={`hover:bg-primary transition-colors duration-300 py-3 px-5 
           ${ showSocial ? "border-b-4 border-fourth" : "border-none"} h-full`}
         >
-          Social
+          Social 
         </a>
         <a 
           href="#" 
