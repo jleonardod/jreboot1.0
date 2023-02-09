@@ -22,7 +22,7 @@ const Header = () => {
       <nav
         className={`fixed bg-primary text-white font-bold text-xl w-[80%] md:w-[40%] h-full xl:hidden ${
           showMenu ? "left-0" : "-left-full"
-        } top-0 xl:static flex-1 flex flex-col xl:flex-row items-center justify-center gap-6 transition-all duration-500 z-500`}
+        } top-0 flex-1 flex flex-col xl:flex-row items-center justify-center gap-6 transition-all duration-500 z-800`}
       >
         <button
           type="button"

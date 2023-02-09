@@ -24,9 +24,9 @@ const BloqueSecundario = () => {
   }
 
   return(
-    <div className="grid grid-cols-1 relative md:col-span-3 md:grid-cols-1 gap-0">
+    <div className="grid grid-cols-1 relative md:col-span-3 md:grid-cols-1 gap-0 -z-10">
       <nav
-        className="w-full h-[3rem] absolute flex-1 justify-between flex flex-row items-center justify-center bg-secondary text-white font-bold"
+        className="w-full h-[3rem] absolute flex-1 justify-between flex flex-row items-center justify-center bg-secondary text-white font-bold z-10"
       >
         <a 
           href="#" 
