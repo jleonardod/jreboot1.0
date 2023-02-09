@@ -62,7 +62,7 @@ const Header = () => {
           Internacional
         </a>
         <a href="#services" className="hover:bg-third transition-colors duration-300 w-full text-center py-2 bg-red-500">
-          Opinión
+          Opinión!
         </a>
       </nav>
       <div className="xl:w-1/6 items-center flex flex-col md:flex-row">
