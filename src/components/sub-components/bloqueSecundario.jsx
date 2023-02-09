@@ -30,21 +30,21 @@ const BloqueSecundario = () => {
       >
         <div
           onClick={habilitarOpinion}
-          className={`hover:bg-primary transition-colors duration-300 py-3 px-5 
+          className={`hover:bg-primary cursor-pointer transition-colors duration-300 py-3 px-5 
           ${ showOpinion ? "border-b-4 border-fourth" : "border-none"} h-full`}
         >
           Opinión 
         </div>
         <div 
           onClick={habilitarSocial} 
-          className={`hover:bg-primary transition-colors duration-300 py-3 px-5 
+          className={`hover:bg-primary cursor-pointer transition-colors duration-300 py-3 px-5 
           ${ showSocial ? "border-b-4 border-fourth" : "border-none"} h-full`}
         >
           Social 
         </div>
         <div
           onClick={habilitarAudios} 
-          className={`hover:bg-primary transition-colors duration-300 py-3 px-5 
+          className={`hover:bg-primary cursor-pointer transition-colors duration-300 py-3 px-5 
           ${ showAudios ? "border-b-4 border-fourth" : "border-none"} h-full`}
         >
           Audios
