@@ -34,7 +34,7 @@ const BloqueSecundario = () => {
           className={`hover:bg-primary transition-colors duration-300 py-3 px-5 
           ${ showOpinion ? "border-b-4 border-fourth" : "border-none"} h-full`}
         >
-          Opinión
+          Opinión 
         </a>
         <a 
           href="#" 
