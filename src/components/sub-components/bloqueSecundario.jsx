@@ -52,7 +52,7 @@ const BloqueSecundario = () => {
       </nav>
       <div className={`mt-[0rem] xl:mt-[3rem] h-full ${ showOpinion && !showSocial && !showAudios ? "block" : "hidden" }`}>
         <nav className="w-full gap-4">
-          <div className="w-full p-4 pl-4 pb-2 hover:bg-gray-100 transition-color duration-300 bg-blue-200 flex flex-row gap-3 bg-white border-b-2 border-gray-300">
+          <div className="w-full p-4 pl-4 pb-2 hover:bg-gray-100 transition-color duration-300 flex flex-row gap-3 bg-white border-b-2 border-gray-300">
             <img 
               src="https://www.elespectador.com/resizer/Z-Z_SkaZNyKzi8GrtbuhUTk68xg=/120x120/filters:quality(80):format(jpeg)/s3.amazonaws.com/arc-authors/elespectador/18f1e866-7cd2-4ffd-9939-03e2c5bd68fb.png"
               className="w-20 h-20 object-cover rounded-full ring-2 ring-gray-300 cursor-pointer"/>
@@ -63,7 +63,7 @@ const BloqueSecundario = () => {
               <p className="text-gray-500 text-[0.8rem]">6 feb. 2023 - 12:00 p. m</p>
             </div>
           </div>
-          <div className="w-full p-4 pl-4 pb-2 hover:bg-gray-100 transition-color duration-300 bg-blue-200 flex flex-row gap-3 bg-white border-b-2 border-gray-300">
+          <div className="w-full p-4 pl-4 pb-2 hover:bg-gray-100 transition-color duration-300   flex flex-row gap-3 bg-white border-b-2 border-gray-300">
             <img 
               src="https://www.elespectador.com/resizer/zwsP1b0EnEy49x-TXvQ9vBDQnDw=/120x120/filters:quality(80):format(jpeg)/s3.amazonaws.com/arc-authors/elespectador/39e31163-ba9b-4c30-a9a6-13e6cff17d12.png"
               className="w-20 h-20 object-cover rounded-full ring-2 ring-gray-300 cursor-pointer"/>
@@ -74,7 +74,7 @@ const BloqueSecundario = () => {
               <p className="text-gray-500 text-[0.8rem]">6 feb. 2023 - 12:00 p. m</p>
             </div>
           </div>
-          <div className="w-full p-4 pl-4 pb-2 hover:bg-gray-100 transition-color duration-300 bg-blue-200 flex flex-row gap-3 bg-white border-b-2 border-gray-300">
+          <div className="w-full p-4 pl-4 pb-2 hover:bg-gray-100 transition-color duration-300   flex flex-row gap-3 bg-white border-b-2 border-gray-300">
             <img 
               src="https://www.elespectador.com/resizer/K0ZGoBDeKgEpLc2pOvo7SK7z8gg=/120x120/filters:quality(80):format(jpeg)/s3.amazonaws.com/arc-authors/elespectador/e28afff8-99e3-4313-af10-eda5917910ff.png"
               className="w-20 h-20 object-cover rounded-full ring-2 ring-gray-300 cursor-pointer"/>
@@ -85,7 +85,7 @@ const BloqueSecundario = () => {
               <p className="text-gray-500 text-[0.8rem]">5 feb. 2023 - 9:05 p. m.</p>
             </div>
           </div>
-          <div className="w-full p-4 pl-4 pb-2 hover:bg-gray-100 transition-color duration-300 bg-blue-200 flex flex-row gap-3 bg-white border-b-2 border-gray-300">
+          <div className="w-full p-4 pl-4 pb-2 hover:bg-gray-100 transition-color duration-300   flex flex-row gap-3 bg-white border-b-2 border-gray-300">
             <img 
               src="https://www.elespectador.com/resizer/MuXRIhopVblpEZ_ZGUj8xuLDBR4=/120x120/filters:quality(80):format(jpeg)/s3.amazonaws.com/arc-authors/elespectador/0269a791-dccf-45da-a1db-6cfc45e8c27f.png"
               className="w-20 h-20 object-cover rounded-full ring-2 ring-gray-300 cursor-pointer"/>
@@ -105,7 +105,7 @@ const BloqueSecundario = () => {
       </div>
       <div className={`mt-[0rem] xl:mt-[3rem] p-0 h-full ${ showAudios && !showSocial && !showOpinion ? "block" : "hidden" }`}>
         <nav className="w-full gap-4">
-          <div className="w-full p-4 pl-4 pb-2 hover:text-white hover:bg-third transition-color duration-200 bg-blue-200 gap-3 bg-white border-b-2 border-gray-300">
+          <div className="w-full p-4 pl-4 pb-2 hover:text-white hover:bg-third transition-color duration-200   gap-3 bg-white border-b-2 border-gray-300">
             <div className="flex flex-row gap-3">
               <img 
                 src="avatar1.jpg"
@@ -115,7 +115,7 @@ const BloqueSecundario = () => {
               </div>
             </div>
           </div>
-          <div className="w-full p-4 pl-4 pb-2 hover:text-white hover:bg-third transition-color duration-200 bg-blue-200 gap-3 bg-white border-b-2 border-gray-300">
+          <div className="w-full p-4 pl-4 pb-2 hover:text-white hover:bg-third transition-color duration-200   gap-3 bg-white border-b-2 border-gray-300">
             <div className="flex flex-row gap-3">
               <img 
                 src="avatar2.jpg"
@@ -125,7 +125,7 @@ const BloqueSecundario = () => {
               </div>
             </div>
           </div>
-          <div className="w-full p-4 pl-4 pb-2 hover:text-white hover:bg-third transition-color duration-200 bg-blue-200 gap-3 bg-white border-b-2 border-gray-300">
+          <div className="w-full p-4 pl-4 pb-2 hover:text-white hover:bg-third transition-color duration-200   gap-3 bg-white border-b-2 border-gray-300">
             <div className="flex flex-row gap-3">
               <img 
                 src="avatar3.jpg"
@@ -135,7 +135,7 @@ const BloqueSecundario = () => {
               </div>
             </div>
           </div>
-          <div className="w-full p-4 pl-4 pb-2 hover:text-white hover:bg-third transition-color duration-200 bg-blue-200 gap-3 bg-white border-b-2 border-gray-300">
+          <div className="w-full p-4 pl-4 pb-2 hover:text-white hover:bg-third transition-color duration-200   gap-3 bg-white border-b-2 border-gray-300">
             <div className="flex flex-row gap-3">
               <img 
                 src="avatar4.jpg"

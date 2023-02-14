@@ -87,6 +87,123 @@ const BloquePrincipal = () =>{
           </div>
         </div>
       </div>
+      <div className="border-b-2 border-primary text-xl text-secondary font-bold">
+        Noticias del dia
+      </div>
+      <div className="">
+        <nav className="w-full ">
+          <div className="grid xl:grid-cols-7 grid-cols-8 hover:bg-gray-200 transition-color duration-300"> 
+            <div className="xl:md:col-span-1 col-span-2">
+              <a href="">
+                <img 
+                  src="https://www.elespectador.com/resizer/4tuPfxLXL1qsp8QUwWxbRsGUxek=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/SKEWFAAZOFE2PEIBRWTM44NVUE.jpg"
+                  className="object-cover xl:w-36 w-full xl:mt-4 mt-10 rounded-xl"
+                />
+              </a>
+            </div>
+            <div className="xl:md:col-span-5 col-span-5 p-3 cursor-pointer xl:w-full">
+              <a href="#">
+                <h3 className="text-secondary font-semibold text-[1rem] hover:underline transition-all duration-200">Politica</h3>
+              </a>
+              <a href="#">
+                <h2 className=" text-xl hover:underline transition-all duration-200">Así será el programa de autoentrevistas de la Casa de Nariño</h2>
+              </a>
+              <p className="text-gray-500 mt-2">Hace 53 Minutos</p>
+            </div>
+            <div className="md:col-span-1 xl:w-[3rem] bg-secondary col-span-1 xl:ml-20 cursor-pointer pl-2">
+              <p className="text-[#B4FFD8] font-semibold text-7xl mt-6">1</p>
+            </div>
+          </div>
+          <div className="grid xl:grid-cols-7 grid-cols-8 hover:bg-gray-200 transition-color duration-300"> 
+            <div className="xl:md:col-span-1 col-span-2">
+              <a href="">
+                <img 
+                  src="https://www.elespectador.com/resizer/Vci2XoKjRIaTo5X4yV-nE2tlzSo=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/L5HKA52JMBD4NLQFNK2QL7J3IA.jpg"
+                  className="object-cover xl:w-36 w-full xl:mt-4 my-10 rounded-xl"
+                />
+              </a>
+            </div>
+            <div className="xl:md:col-span-5 col-span-5 p-3 cursor-pointer xl:w-full">
+              <a href="#">
+                <h3 className="text-secondary font-semibold text-[1rem] hover:underline transition-all duration-200">Politica</h3>
+              </a>
+              <a href="#">
+                <h2 className="text-xl hover:underline transition-all duration-200">Los argumentos para demandar la reforma tributaria de Petro</h2>
+              </a>
+              <p className="text-gray-500 mt-2">Hace 39 Minutos</p>
+            </div>
+            <div className="md:col-span-1 xl:w-[3rem] bg-secondary col-span-1 xl:ml-20 cursor-pointer pl-1">
+              <p className="text-[#B4FFD8] font-semibold text-7xl mt-6">2</p>
+            </div>
+          </div>
+          <div className="grid xl:grid-cols-7 grid-cols-8 hover:bg-gray-200 transition-color duration-300"> 
+            <div className="xl:md:col-span-1 col-span-2">
+              <a href="">
+                <img 
+                  src="https://www.elespectador.com/resizer/nxgGoBFWm_Fqk_RwyyUbT5-VpR4=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/OWRGTU23MBFFRKDAMKMAXNZJUU.jpeg"
+                  className="object-cover w-36 mt-4 rounded-xl"
+                />
+              </a>
+            </div>
+            <div className="xl:md:col-span-5 col-span-5 p-3 cursor-pointer xl:w-full">
+              <a href="#">
+                <h3 className="text-secondary font-semibold text-[1rem] hover:underline transition-all duration-200">Politica</h3>
+              </a>
+              <a href="#">
+                <h2 className=" text-xl hover:underline transition-all duration-200">Así fue la injerencia de EE. UU. en el conflicto colombiano: Comisión de la Verdad</h2>
+              </a>
+              <p className="text-gray-500 mt-2">Hace 29 Minutos</p>
+            </div>
+            <div className="md:col-span-1 xl:w-[3rem] bg-secondary col-span-1 xl:ml-20 cursor-pointer pl-1">
+              <p className="text-[#B4FFD8] font-semibold text-7xl mt-6">3</p>
+            </div>
+          </div>
+          <div className="grid xl:grid-cols-7 grid-cols-8 hover:bg-gray-200 transition-color duration-300"> 
+            <div className="xl:md:col-span-1 col-span-2">
+              <a href="">
+                <img 
+                  src="https://www.elespectador.com/resizer/z_jn4TrEzsKecMcYw9a3rfg8UT0=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/L76LTRJBZJG4DMXUV7IK6E6LGE.jpg"
+                  className="object-cover w-36 mt-4 rounded-xl"
+                />
+              </a>
+            </div>
+            <div className="xl:md:col-span-5 col-span-5 p-3 cursor-pointer xl:w-full">
+              <a href="#">
+                <h3 className="text-secondary font-semibold text-[1rem] hover:underline transition-all duration-200">Deportes</h3>
+              </a>
+              <a href="#">
+                <h2 className=" text-xl hover:underline transition-all duration-200">Linda Caicedo fue elegida por la IFFHS como la mejor jugadora joven de Sudamérica</h2>
+              </a>
+              <p className="text-gray-500 mt-2">Hace 3 Horas</p>
+            </div>
+            <div className="md:col-span-1 xl:w-[3rem] bg-secondary col-span-1 xl:ml-20 cursor-pointer pl-1">
+              <p className="text-[#B4FFD8] font-semibold text-7xl mt-6">4</p>
+            </div>
+          </div>
+          <div className="grid xl:grid-cols-7 grid-cols-8 hover:bg-gray-200 transition-color duration-300"> 
+            <div className="xl:md:col-span-1 col-span-2">
+              <a href="">
+                <img 
+                  src="https://www.elespectador.com/resizer/9khgYj2M1nI8276PmZhQ8x4NXS4=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/ZHTHZZNDKBDOVJNYRQU2OBGWRE.jpg"
+                  className="object-cover w-36 mt-4 rounded-xl"
+                />
+              </a>
+            </div>
+            <div className="xl:md:col-span-5 col-span-5 p-3 cursor-pointer xl:w-full">
+              <a href="#">
+                <h3 className="text-secondary font-semibold text-[1rem] hover:underline transition-all duration-200">Judicial</h3>
+              </a>
+              <a href="#">
+                <h2 className=" text-xl hover:underline transition-all duration-200">Capturan a Ana Catalina Noguera, exjefe de Finanzas Criminales de la Fiscalía</h2>
+              </a>
+              <p className="text-gray-500 mt-2">Hace 3 Horas</p>
+            </div>
+            <div className="md:col-span-1 xl:w-[3rem] bg-secondary col-span-1 xl:ml-20 cursor-pointer pl-1">
+              <p className="text-[#B4FFD8] font-semibold text-7xl mt-6">5</p>
+            </div>
+          </div>
+        </nav>
+      </div>
     </div>
   )
 }
